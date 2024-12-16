@@ -1,0 +1,72 @@
+/*Selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+/*Selector por etiqueta*/
+h1, h2, h3, h4{
+    color: rgb(201, 50, 80);
+}
+
+p{
+    color: rgb(53, 168, 168);
+}
+
+div p{
+    color: rgb(164, 76, 202);
+}
+
+/*Selector por clase*/
+.title{
+    color: rgb(180, 226, 111);
+}
+
+/*Selector por id*/
+#unique-title{
+    color: rgb(89, 121, 181);
+}
+
+.container-1{
+    background-color: rgb(203, 125, 141);
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.container-2{
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.special-image{
+    width: 450px;
+    border-radius: 30px;
+    transition: 250ms;
+}
+
+.special-image:hover{
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+.my-btn{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: 150ms;
+}
+
+.my-btn:hover{
+    background-color: rgb(209, 134, 69);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.container-2 p {
+    color: rgb(110, 191, 110);
+}
